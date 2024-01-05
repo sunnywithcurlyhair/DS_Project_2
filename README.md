@@ -36,21 +36,18 @@ Our first cleaning step was removing all movies that we had no monetary data for
 We next wanted to differentiate between big blockbuster movies and smaller indie films and what not so conducted a little bit of outside research on industry standards and created three categories of movies: low budget (budget < 5 million) movies, medium budget (5 mil < budget < 50 mil), and high budget movies (budget > 50 mil). We created three new dataframes based off of this classifications and conducted the rest of our analysis through this tiered budget lens.
 Based off of our exploration we chose runtime, genre, and personel as the three most important variables that contribute to box office success and are controllable before the release of a movie. We then visualized these three variables, grouped by the three budget categories and ran signifigance testing in order to come up with actionable insights from the data we had collected. 
 
-* 
-Our recommendations are the following: (snip of slide)
 
-<img width="1081" alt="Screenshot 2023-12-08 at 11 44 51 AM" src="https://github.com/WesleyDickens/DS-Project-1/assets/8894178/e3997252-dc83-4aca-9417-cd9874d983bf">
+Our recommendations are the following: 
 
-* Based on our breakdown of the production costs, low budget films have a much higher standard deviation of success than medium and high budget films, making them a high risk, high reward investment. (snip of std dev slide)
+* Based on our breakdown of the production costs, low budget films have a much higher standard deviation of success than medium and high budget films, making them a high risk, high reward investment.
 
-<img width="1051" alt="Screenshot 2023-12-08 at 11 44 26 AM" src="https://github.com/WesleyDickens/DS-Project-1/assets/8894178/69f3910a-895c-44a1-af72-3824a00c31d2">
+   <img width="521" alt="image" src="https://github.com/sunnywithcurlyhair/DS_Project_2/assets/151488038/b3b550e8-8fde-4ea9-9b19-9761aa62ec94">
+
 
 * When it comes to genre, different genres are more successful at different production costs intervals, with Horror topping low budget, horror and musical taking the mid tier budget, and music and animation being the best for high budget films  ()
 
-<img width="1050" alt="Screenshot 2023-12-08 at 11 45 01 AM" src="https://github.com/WesleyDickens/DS-Project-1/assets/8894178/0c92b0fa-2ce1-4eb7-939b-d47890eb5769">
-
-* finally we looked at which actors, writers, and directors are responsible for the highest grossing movies (snip of actors/writers/directors)
-
+* finally we looked at which actors, writers, and directors are responsible for the highest grossing movies
+ <img width="892" alt="image" src="https://github.com/sunnywithcurlyhair/DS_Project_2/assets/151488038/1e08b05a-f7ab-49d2-812a-e4863545712d">
 
 
 
